@@ -1,0 +1,27 @@
+
+{
+  "name": "mocha-training-reporter",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "https://github.com/bmac/mocha-training-reporter",
+  "author": {
+    "name": "bmac",
+    "email": "bmac325@GMail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bmac/mocha-training-reporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bmac/mocha-training-reporter/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/bmac/mocha-training-reporter/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
