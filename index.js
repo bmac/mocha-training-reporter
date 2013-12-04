@@ -18,7 +18,7 @@ function TrainingReporter(runner) {
 };
 
 
-Reporter.prototype.__proto__ = Spec.prototype;
+TrainingReporter.prototype.__proto__ = Spec.prototype;
 
 
 exports = module.exports = TrainingReporter;
