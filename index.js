@@ -5,7 +5,7 @@
 
 var mocha = require('mocha'),
     JSON = require('./json'),
-    Base = mocha.Base,
+    Base = mocha.reporters.Base,
     cursor = Base.cursor,
     color = Base.color,
     Spec = Base.Spec;
