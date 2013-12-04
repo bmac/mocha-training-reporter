@@ -5,6 +5,7 @@ function JSONReporter(runner) {
   var tests = []
     , failures = []
     , passes = [];
+  var self = this;
 
   runner.on('test end', function(test){
     tests.push(test);
