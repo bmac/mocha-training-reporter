@@ -8,7 +8,7 @@ var mocha = require('mocha'),
     Base = mocha.reporters.Base,
     cursor = Base.cursor,
     color = Base.color,
-    Spec = Base.Spec;
+    Spec = mocha.reporters.Spec;
 
 
 function TrainingReporter(runner) {
